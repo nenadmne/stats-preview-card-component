@@ -115,13 +115,15 @@ h1, h2 {
 
 @media (min-width: 700px) {
     body, html {
-        height: fit-content;
         min-width: none;
         max-width: none;
+        height: 100%;
     }
 
     body {
         padding: 10%;
+        justify-content: center;
+        align-items: center;
     }
 
     main, .bottom {
