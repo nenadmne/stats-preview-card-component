@@ -33,6 +33,7 @@ body, main, html{
     border: 0%;
     margin: 0 auto;
     justify-content: center;
+    align-items: center;
 }
 
 main {
@@ -148,7 +149,7 @@ h1, h2 {
     }
 
     .bottom-left, .bottom-mid, .bottom-right {
-        flex-basis: 33.33%;
+        box-sizing: border-box;
     }
 
     .bottom {
